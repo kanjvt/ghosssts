@@ -1,0 +1,28 @@
+baseURL = "https://ghossst.eu.org/"
+languageCode = "en-us"
+title = "Ghossst's blog"
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Ghossst"
+  description = "In solitude, where we are least alone."
+  github = ""
+  facebook = ""
+  twitter = ""
+  linkedin = ""
+  instagram = ""
+  tumblr = ""
+  email = "thx@ghossst.eu.org"
+  url = "https://ghossst.eu.org"
+  keywords = "blog, tutorial, google analytics"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "☠️"
+  favicon = "https://telegra.ph/file/344fe0e14e8b474a8d2ed.png"
+  location = "America"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
